@@ -24,36 +24,6 @@ function Projects() {
           Here are a few projects I've worked on .......
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={interview}
-              isBlog={false}
-              title="InterviewMate"
-              description1="• A web application which provides complete environment to conduct technical interviews with audio-video interface and code editor
-              and runner facility."
-              description2="• Other features: Real-time whiteboard, chat box, add participants."
-              description3="• Client Tech: React, Redux, SocketIO, JavaScript, WEBRTC."
-              description4="• Server Tech: Node, Express, SocketIO, nodemailer."
-              gitLink="https://github.com/CRed4max/InterviewMate"
-              liveLink="https://github.com/CRed4max/PortfolioChhoteLal"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={vidhyakash}
-              isBlog={false}
-              title="VidhyaKaksh"
-              description1="• VidhyaKaksh is an online schooling website where people can experience virtual classroom"
-              description2="• Any number of classroom can be created. Teachers can post Assignments, Materials to study, maintain a grade-sheet of students for
-              every assignments and post important announcements."
-              description3="• Tech: HTML, CSS, React js, MySQL, Express-Node.js, Redux, Bootstrap"
-              description4=""
-              gitLink="https://github.com/CRed4max/VidhyaKaksh"
-              liveLink="https://github.com/CRed4max/PortfolioChhoteLal"
-            />
-          </Col> */}
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={sensale}
@@ -124,20 +94,6 @@ function Projects() {
               liveLink="https://github.com/CRed4max/universityManagement"
             />
           </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={chatting}
-              isBlog={false}
-              title="Realtime Chat Application"
-              description1="• A web-application which is made with the aim of online chatting."
-              description2="• Important features includes: Login, Logout, Personal Chat, Group Chat"
-              description3="• Tech: React.js, firebase, JavaScript, HTML, CSS."
-              description4=""
-              gitLink="https://github.com/CRed4max/"
-              liveLink="https://github.com/CRed4max/PortfolioChhoteLal"
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
