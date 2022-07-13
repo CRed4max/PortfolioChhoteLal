@@ -9,6 +9,8 @@ import examsystem from "../../Assets/Projects/examsystem.jpg";
 import university from "../../Assets/Projects/university.jpg";
 import chatting from "../../Assets/Projects/chatting.png";
 import portfolio from "../../Assets/Projects/portfolio.jpg";
+import sensale from "../../Assets/Projects/sensale.png";
+import linkedin from "../../Assets/Projects/linkedin.png";
 
 function Projects() {
   return (
@@ -32,7 +34,8 @@ function Projects() {
               description2="• Other features: Real-time whiteboard, chat box, add participants."
               description3="• Client Tech: React, Redux, SocketIO, JavaScript, WEBRTC."
               description4="• Server Tech: Node, Express, SocketIO, nodemailer."
-              link="https://github.com/CRed4max/InterviewMate"
+              gitLink="https://github.com/CRed4max/InterviewMate"
+              liveLink="https://github.com/CRed4max/PortfolioChhoteLal"
             />
           </Col>
 
@@ -46,9 +49,24 @@ function Projects() {
               every assignments and post important announcements."
               description3="• Tech: HTML, CSS, React js, MySQL, Express-Node.js, Redux, Bootstrap"
               description4=""
-              link="https://github.com/CRed4max/VidhyaKaksh"
+              gitLink="https://github.com/CRed4max/VidhyaKaksh"
+              liveLink="https://github.com/CRed4max/PortfolioChhoteLal"
             />
           </Col> */}
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={sensale}
+              isBlog={false}
+              title="Sensale: The online shopping platform"
+              description1="• The Sensale is an online shopping site with customer panel and admin panel. It contains all the features required for online shopping."
+              description2="• Special features includes: Products, Cart, Payment, Admin Panel."
+              description3="• Tech: MERN Full Stack, MongoDB, Express.js, React.js, Node.js, JavaScript, HTML, CSS, Bootstrap."
+              description4=""
+              gitLink="https://github.com/CRed4max/Sensale"
+              liveLink="https://sensale.herokuapp.com/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
@@ -59,7 +77,36 @@ function Projects() {
               description2="• Special features includes: Create Exam, Add Question, Give Exam, Leaderboard."
               description3="• Tech: Node.js, React.js, firebase, JavaScript, HTML, CSS, Bootstrap."
               description4=""
-              link="https://github.com/CRed4max/OnlineExaminationSystem"
+              gitLink="https://github.com/CRed4max/OnlineExaminationSystem"
+              liveLink="https://online-examination-system-cred.herokuapp.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={linkedin}
+              isBlog={false}
+              title="LinkedIn Clone"
+              description1="• A web-application project that contains some features of LinkedIn application. An user can post their post and also can see others posts"
+              description2="• Special features includes: Login, Create Post, See Others Post"
+              description3="• Tech: Node.js, React.js, firebase, JavaScript, HTML, CSS, Bootstrap."
+              description4=""
+              gitLink="https://github.com/CRed4max/LinkedIn-Clone"
+              liveLink="https://linkedin-cln.herokuapp.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="ChhoteLal | Portfolio"
+              description1="• A web-application which is my portfolio where it's become easy for people to know about me."
+              description2="• Important features includes: Home, About, Projects, Resume, Blogs"
+              description3="• Tech: Node.js, React.js, JavaScript, HTML, CSS, Bootstrap."
+              description4=""
+              gitLink="https://github.com/CRed4max/PortfolioChhoteLal"
+              liveLink="https://chhotelal-portfolio.herokuapp.com/"
             />
           </Col>
 
@@ -73,7 +120,8 @@ function Projects() {
               the university."
               description3="• Tech: Java, Swing, JFrame, JLabel, MySQL(connector used JDBC)."
               description4=""
-              link="https://github.com/CRed4max/universityManagement"
+              gitLink="https://github.com/CRed4max/universityManagement"
+              liveLink="https://github.com/CRed4max/universityManagement"
             />
           </Col>
 
@@ -86,23 +134,10 @@ function Projects() {
               description2="• Important features includes: Login, Logout, Personal Chat, Group Chat"
               description3="• Tech: React.js, firebase, JavaScript, HTML, CSS."
               description4=""
-              link="https://github.com/CRed4max/"
+              gitLink="https://github.com/CRed4max/"
+              liveLink="https://github.com/CRed4max/PortfolioChhoteLal"
             />
           </Col> */}
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={portfolio}
-              isBlog={false}
-              title="ChhoteLal | Portfolio"
-              description1="• A web-application which is my portfolio where it's become easy for people to know about me."
-              description2="• Important features includes: Home, About, Projects, Resume, Blogs"
-              description3="• Tech: Node.js, React.js, JavaScript, HTML, CSS, Bootstrap."
-              description4=""
-              link="https://github.com/CRed4max/"
-            />
-          </Col>
-
         </Row>
       </Container>
     </Container>

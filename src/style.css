@@ -310,6 +310,12 @@ button:focus {
   padding-top: 9em !important;
 }
 
+.img-fluid {
+  height: 35vh;
+  width: 35vh;
+  border-radius: 50% !important;
+}
+
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
@@ -455,6 +461,13 @@ button:focus {
   padding-bottom: 50px !important;
   padding-left: 25px !important;
   padding-right: 25px !important;
+  min-width: 500px;
+  width: 50% !important;
+
+  @media screen (width < 767px) {
+    width: 90% !important;
+    
+  }
   height: auto !important;
 }
 
@@ -485,6 +498,7 @@ button:focus {
   box-shadow: 0 3px 3px 2px rgba(145, 77, 161, 0.459) !important;
   color: white !important;
   transition: all 0.5s ease 0s !important;
+  /* width: 40% !important; */
   height: 100% !important;
 }
 
@@ -516,6 +530,8 @@ button:focus {
 }
 
 .btn-primary {
+  margin-left: 2vh !important;
+  margin-right: 2vh !important;
   color: #fff !important;
   background-color: #623686 !important;
   border-color: #623686 !important;

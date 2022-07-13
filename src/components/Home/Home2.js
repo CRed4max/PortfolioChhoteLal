@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
+import chhotelal from "../../Assets/chhotelal.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -24,18 +25,21 @@ function Home2() {
               <br />
               <br />I am fluent in classics like
               <i>
-                <b className="purple"> Java, Python, Javascript and React </b>
+                <b className="purple"> Java, Python, Javascript languages and MERN Full Stack Development </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are &nbsp;
               <i>
-                <b className="purple">Web Technologies Based Applications </b> and also in areas
-                related to{" "}
-                <b className="purple">Developing My Problem Solving Skills</b>
+                <b className="purple">Developing My Problem Solving Skills </b>
+                and building new
+                <b className="purple">
+                  {" "}
+                  Web Technologies Based Applications{" "}
+                </b>{" "}
               </i>
               <br />
-              <br />
+              {/* <br />
               Whenever possible, I also apply my passion for developing products
               with <b className="purple">Node.js</b> and
               <i>
@@ -47,12 +51,12 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js </b>
-              </i>
+              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={chhotelal} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>

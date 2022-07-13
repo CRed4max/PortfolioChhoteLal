@@ -31,7 +31,7 @@ function Achievements() {
               imgPath={coding}
               isBlog={false}
               title="Problem Solving"
-              description="Solved 800+ Coding Problems"
+              description="Solved 1000+ Coding Problems"
               viewType="View Profile"
             />
           </Col>
@@ -41,6 +41,7 @@ function Achievements() {
               isBlog={false}
               title="Coding Profile"
               description="Codeforces"
+              description1="Rating : 1276"
               viewType="View Profile"
               link="https://codeforces.com/profile/chhotelalk"
             />
@@ -52,8 +53,21 @@ function Achievements() {
               isBlog={false}
               title="Coding Profile"
               description="LeetCode"
+              description1="450+ problem solved"
               viewType="View Profile"
-              link = "https://leetcode.com/chhotelalk2509/"
+              link="https://leetcode.com/chhotelalk2509/"
+            />
+          </Col>
+          
+          <Col md={4} className="project-card">
+            <AchievementCards
+              imgPath={interviewbit}
+              isBlog={false}
+              title="Coding Profile"
+              description="InterviewBit"
+              description1="300+ problem solved"
+              viewType="View Profile"
+              link="https://www.interviewbit.com/profile/chhote-lal-kumar"
             />
           </Col>
 
@@ -63,19 +77,9 @@ function Achievements() {
               isBlog={false}
               title="Coding Profile"
               description="GeeksForGeeks"
+              description1="225+ problem solved"
               viewType="View Profile"
-              link = "https://auth.geeksforgeeks.org/user/cred4max/profile"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <AchievementCards
-              imgPath={interviewbit}
-              isBlog={false}
-              title="Coding Profile"
-              description="InterviewBit"
-              viewType="View Profile"
-              link = "https://www.interviewbit.com/profile/chhote-lal-kumar"
+              link="https://auth.geeksforgeeks.org/user/cred4max/profile"
             />
           </Col>
 
@@ -87,7 +91,7 @@ function Achievements() {
               description="Educational Codeforces Round 124"
               description1="Global Rank: 2424"
               viewType="View Contest"
-              link = "https://codeforces.com/contest/1651"
+              link="https://codeforces.com/contest/1651"
             />
           </Col>
 
