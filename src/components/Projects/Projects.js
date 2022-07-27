@@ -26,6 +26,21 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={interview}
+              isBlog={false}
+              title="InterviewMate"
+              description1="• A web application which provides complete environment to conduct technical interviews with audio-video interface and code editor
+              and runner facility."
+              description2="• Other features: Real-time whiteboard, chat box, add participants."
+              description3="• Client Tech: React, Redux, SocketIO, JavaScript, WEBRTC."
+              description4="• Server Tech: Node, Express, SocketIO, nodemailer."
+              gitLink="https://github.com/CRed4max/InterviewMate"
+              liveLink="https://interview-mate.herokuapp.com/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={sensale}
               isBlog={false}
               title="Sensale: The online shopping platform"
